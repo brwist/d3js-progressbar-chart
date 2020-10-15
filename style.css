@@ -1,0 +1,28 @@
+.text-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  fill: #7a8b9b;
+  text-anchor: end;
+  text-transform: uppercase;
+}
+.value-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  fill: #fff;
+  text-anchor: middle;
+}
+.domain,
+.tick text {
+  display: none;
+  visibility: hidden;
+}
+.tick line {
+  stroke: #a5a6a8;
+  stroke-width: 2px;
+}
+.arrow {
+  fill: #333;
+  stroke: #333;
+  stroke-width: 1px;
+}
